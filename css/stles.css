@@ -1,0 +1,94 @@
+body {
+  /* background-color: grey; */
+  margin: 0;
+  font-family: noto sans;
+}
+.first {
+  /* background-image: url("glasses-1208262_1920.jpg"); */
+  /* background-size: cover; */
+    width: 100%;
+    /* height: 560px; */
+    /* height: 30%; */
+    position: absolute;
+    /* top: 0; */
+    /* right: 0; */
+
+}
+.black{
+  /* background-color: black; */
+  width: 100%;
+  /* height: 50px; */
+  /* margin-top: 20px; */
+  position: relative;
+  /* top:0px; */
+  top: 0px;
+}
+.header{
+  color: white;
+  font-size: 1.5rem;
+  /* position: relative; */
+
+}
+#effective{
+  margin-top: 45px;
+  position: relative;
+  color: white;
+  /* height: 50px; */
+}
+.medium{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #020d2a;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right:34px;
+  margin-left: calc(var(--bs-gutter-x) / 0);
+}
+.surgery{
+  margin-left: 35%;
+  position: relative;
+  bottom: 20%;
+  margin-bottom: 70px;
+}
+.last{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color:#844711;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right:34px;
+  margin-left: calc(var(--bs-gutter-x) / 0);
+}
+.font {
+  color: white;
+  font-family:'Lora', serif;
+}
+.disclaimer{
+  color: red;
+}
+.claimer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color:white;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right:34px;
+  margin-left: calc(var(--bs-gutter-x) / 0);
+}
+.btn-outline-secondar{
+  color: #fff;
+  background-color: red;
+  border-color: #6c757d;
+}
